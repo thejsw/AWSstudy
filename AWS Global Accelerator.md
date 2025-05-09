@@ -48,6 +48,56 @@
 
 ---
 
+## ✅ AWS Global Accelerator 퀴즈
+
+### ✅ 문제 1: 주요 이점
+
+**Q1. AWS Global Accelerator를 사용했을 때 얻을 수 있는 주요 이점은 무엇인가요?**
+
+- A. 전 세계적으로 애플리케이션의 저장 용량이 증가한다  
+- B. 전 세계 사용자에게 애플리케이션의 성능과 가용성이 향상된다 ✅  
+- C. 애플리케이션으로 전송되는 모든 데이터를 암호화한다  
+- D. 전 세계적으로 컴퓨팅 리소스를 자동으로 확장한다  
+
+**🟢 정답: B**
+
+💬 **해설**:  
+Global Accelerator는 AWS 글로벌 네트워크를 활용하여 전 세계 사용자에게 **빠르고 안정적인 접근**을 제공합니다.
+
+---
+
+### ✅ 문제 2: 사용 사례
+
+**Q2. 한 회사가 전 세계 사용자에게 애플리케이션을 제공하고자 합니다. 이때, 성능을 높이고 지연 시간을 줄이기 위해 사용할 수 있는 AWS 서비스는 무엇인가요?**
+
+- A. AWS CloudTrail  
+- B. Amazon EC2 Auto Scaling  
+- C. AWS Global Accelerator ✅  
+- D. AWS Backup  
+
+**🟢 정답: C**
+
+💬 **해설**:  
+Global Accelerator는 사용자 **근처의 AWS 엣지 로케이션**을 통해 빠르게 요청을 수신하고, **내부 전용 네트워크로 전달**합니다.
+
+---
+
+### ✅ 문제 3: 작동 방식
+
+**Q3. 다음 중 AWS Global Accelerator가 애플리케이션의 가용성을 높이는 방식으로 가장 적절한 설명은 무엇인가요?**
+
+- A. 애플리케이션 데이터를 여러 리전에 저장한다  
+- B. 효율성을 위해 사용자 트래픽을 공용 인터넷을 통해 라우팅한다  
+- C. AWS 글로벌 네트워크를 사용하여 트래픽을 정상적인 엔드포인트로 전달한다 ✅  
+- D. 전 세계의 DNS 레코드를 자동으로 갱신한다  
+
+**🟢 정답: C**
+
+💬 **해설**:  
+Global Accelerator는 **비정상적인 엔드포인트를 피하고**, 가장 가까운 **정상 리소스로 자동 라우팅**합니다.
+
+---
+
 ## 🔗 더 알아보기
 - [AWS 공식 문서: Global Accelerator](https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html)
 - [AWS 제품 페이지](https://aws.amazon.com/global-accelerator/)
